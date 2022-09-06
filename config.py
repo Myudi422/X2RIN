@@ -15,7 +15,7 @@ API_HASH = os.environ.get("API_HASH", "aebd45c2c14b36c2c91dec3cf5e8ee9a")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001448249578"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "784985038"))
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "postgres://npshqryw:qB36Hl2d64csE9t2-GpFPeu03XPICiLA@hansken.db.elephantsql.com/npshqryw")
