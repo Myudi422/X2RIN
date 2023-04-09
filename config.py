@@ -3,19 +3,19 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1912233708:AAHLpkitj3fmDplit-rMa7uPkCrA84_xF1s")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6017600738:AAHrwytYTEMVAi4K_ylHWt4cmAN4ea6AMTQ")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "7120601"))
+APP_ID = int(os.environ.get("APP_ID", "28248389"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "aebd45c2c14b36c2c91dec3cf5e8ee9a")
+API_HASH = os.environ.get("API_HASH", "109d635ff430a728cfc8ecdce9b9cf52")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001448249578"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001832482562"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "784985038"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1889131038"))
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "postgres://npshqryw:qB36Hl2d64csE9t2-GpFPeu03XPICiLA@hansken.db.elephantsql.com/npshqryw")
@@ -41,7 +41,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hai {first} <b>untuk menggunaka
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
@@ -50,7 +50,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 ADMINS.append(OWNER_ID)
-ADMINS.append("784985038, 1808809023")
+ADMINS.append("784985038, 1889131038")
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
